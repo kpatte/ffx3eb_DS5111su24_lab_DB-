@@ -1,0 +1,26 @@
+teacher_id,instructor_name,active
+INST0001,pete alonzi,TRUE
+INST0002,jeffrey woo,TRUE
+INST0003,judy fox,TRUE
+INST0004,jeremy bolton,FALSE
+INST0005,bill basener,TRUE
+INST0006,marc ruggiano,TRUE
+INST0007,adam tashman,TRUE
+INST0008,sree mallikarjun,TRUE
+INST0009,eric tassone,TRUE
+INST0010,peter gedeck,TRUE
+INST0011,abbas kazemipour,TRUE
+INST0012,cait dreisbach,TRUE
+INST0013,lei xie,TRUE
+INST0014,renee cummings,TRUE
+INST0015,stephen baek,TRUE
+INST0016,raf alvarado ,TRUE
+INST0017,teague henry,TRUE
+INST0018,rich nguyen,TRUE
+INST0019,jon kropko,TRUE
+INST0020,nada basit,TRUE
+INST0021,panagiotis apostolellis,TRUE
+INST0022,mike porter,TRUE
+INST0023,luis felipe rosado murillo,FALSE
+INST0024,jason williamson,TRUE
+INST0025,eric field,TRUE

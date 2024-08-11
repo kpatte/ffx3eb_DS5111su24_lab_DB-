@@ -1,0 +1,18 @@
+mnemonic,name,description_short,active
+ds_biz_anaytics,business analytics for data scientists,focuses on the application of data science to critical problems and opportunities in business.,TRUE
+ds_tech_bootcamp,technical bootcamp,bootcamp for new online msds students,TRUE
+ds5001,exploratory text analytics,"introduction to text analytics with a focus on long-form documents, such as reviews, news articles, and novels. focus on unsupervised methods.",TRUE
+ds5012,foundations of computer science,"a foundation in discrete mathematics, data structures, algorithmic design and implementation, computational complexity, parallel computing, and data integrity.",TRUE
+ds5100,programming for data science,"programming essentials for data science: python, r, github",TRUE
+ds5110,big data systems,use spark for large-scale analytics and machine learning. basics of aws cloud tools.,TRUE
+ds6001,practice and application of data science,"build skills to acquire, clean, analyze, understand, and interpret data",TRUE
+ds6002,big data ethics,examines the ethical issues arising around big data.,TRUE
+ds6011,data science capstone project work i,data science capstone part 1,TRUE
+ds6013,data science capstone project work ii,data science capstone part 2,TRUE
+ds6030,statistical learning,fundamentals of data mining and machine learning within a common statistical framework,TRUE
+ds6040,bayesian machine learning,build bayesian models to provide predictions and quantify the uncertainty in these predictions,TRUE
+ds6050,deep learning,deep learning fundamentals and applications,TRUE
+sarc5400,data visualization,teaches visual and spatial thinking coupled with visual data tools and interactive web coding to envision information,TRUE
+stat6021,linear models for data science,an introduction to linear statistical models in the context of data science,TRUE
+ds6003,practice and application of data science part 2,practitioner seminar,FALSE
+ds6012,big data ethics part 2,examines the ethical issues arising around big data.,FALSE

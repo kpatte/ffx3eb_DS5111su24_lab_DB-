@@ -1,0 +1,129 @@
+outcome_id,MNEMONIC,LEARNING OUTCOME
+LO0001,ds5001,understand and use language models such as bag of words
+LO0002,ds5001,understand and use vector space models
+LO0003,ds5001,understand how to measure similarity between documents
+LO0004,ds5001,understand how principal component analysis (pca) works
+LO0005,ds5001,understand and use topic models such as latent dirichlet allocation (lda)
+LO0006,ds5001,understand and use word embedding such as glove and word2vec
+LO0007,ds5001,understand and use sentiment analysis such as vader
+LO0008,ds5001,understand and use naive bayes classification
+LO0009,cs5012,have a working knowledge of parallel computing and apply this knowledge for improved computing efficiency
+LO0010,cs5012,"select, computationally assess, and deploy appropriate and efficient data structures and algorithms to solve data science problems"
+LO0011,cs5012,"define and use logic, data structures, and algorithms to solve problems"
+LO0012,cs5012,"connect, transform, and reduce real-world problems to classical problem frameworks to make use of existing, efficient algorithmic solutions"
+LO0013,cs5012,independently explore advanced or supplementary topics to attain a deeper and complimentary understanding of topics
+LO0014,cs5012,"reflect on peer-feedback, instructor-feedback, experiences, and lessons-learned related to the use of data structures and algorithms to make continual improvements and updates to methodologies applied"
+LO0015,cs5012,have a working knowledge of the algorithm complexity class hierarchy in order to gain perspective of the scope of the field and its contextual application to data science
+LO0016,cs5012,design and understand regular expressions for pattern matching
+LO0017,cs5012,understand the important considerations for proper database design
+LO0018,ds5100,basic dataframe operations (python and r)
+LO0019,ds5100,clone a repo on github
+LO0020,ds5100,confidently work in an appropriate programming environment (ide)
+LO0021,ds5100,confidently write a class and call its methods to simulate a scenario
+LO0022,ds5100,confidently write and call functions in both python and r
+LO0023,ds5100,correctly pass parameters and retrieve function output(s)
+LO0024,ds5100,"set, list, dict, tuple)"
+LO0025,ds5100,demonstrate how methods are inherited from base classes
+LO0026,ds5100,"essential primitives (e.g., bool, int, float)"
+LO0027,ds5100,find and utilize resources including online documentation
+LO0028,ds5100,"at least three different formats, including csv, txt, json"
+LO0029,ds5100,identify and utilize primitive data types and data structures [built in]
+LO0030,ds5100,import data into a pandas dataframe
+LO0031,ds5100,incorporating some exception handling
+LO0032,ds5100,"numpy, pandas (essentials)"
+LO0033,ds5100,patch/debug broken code
+LO0034,ds5100,patch/debug code using in-line testing and unit testing (advanced)
+LO0035,ds5100,"perform sensitivity analysis on functions (e.g., changing inputs and measuring impact on outputs)"
+LO0036,ds5100,perform simple mathematical calculations (python and r)
+LO0037,ds5100,apply the tidyverse pipe operator to aggregate data
+LO0038,ds5100," select(), filter(), arrange(), mutate(), summarize()"
+LO0039,ds5100,data types
+LO0040,ds5100,demonstrate use of element-wise operations
+LO0041,ds5100,"essential built-in functions like head(), tail(), rbind(), table(), summary(), str()"
+LO0042,ds5100,get started in rstudio and navigate around
+LO0043,ds5100,save code in an r script
+LO0044,ds5100,vectorization
+LO0045,ds5100,read and write to and from various data formats
+LO0046,ds5100,read code on github
+LO0047,ds5100,select and apply an appropriate data structure based on the problem requirements
+LO0048,ds5100,use a program api to utilize existing functions (e.g. assert statements.)
+LO0049,ds5100,"using program api to utilize existing functions (e.g. sorting, searching, assert statements, etc.)"
+LO0050,ds5100,utilize and implement add-on numerical packages to augment existing data structures
+LO0051,ds5100,write robust code by implementing the basic principles of program testing and debugging
+LO0052,ds5110,execute distributed computing frameworks using mapreduce and spark
+LO0053,ds5110,"demonstrate knowledge of applications for big data storage, retrieval, processing, and modeling using amazon aws, hive, and others from the hadoop ecosystem"
+LO0054,ds5110,"implement pyspark for prevalent data science tasks, including data analysis and machine learning"
+LO0055,ds5110,execute an end-to-end predictive modeling project using a large dataset
+LO0056,ds5110,delineate spark basic architecture and functionality.
+LO0057,ds5110,apply rdds and pair rdds in data analysis tasks
+LO0058,ds5110,apply dataframes in data analysis tasks
+LO0059,ds5110,apply spark sql to data analysis tasks
+LO0060,ds5110,demonstrate how to preprocess data in pyspark
+LO0061,ds5110,identify the basics of the mllib library in pyspark
+LO0062,ds5110,implement classification models in mllib
+LO0063,ds5110,identify the statistics functionality in mllib
+LO0064,ds5110,implement regression models in mllib
+LO0065,ds5110,examine the alternating least squares algorithm
+LO0066,ds5110,implement recommender systems in pyspark using collaborative filtering
+LO0067,ds5110,execute the feature utilities package in ml
+LO0068,ds5110,construct machine learning pipelines
+LO0069,ds5110,apply dimension reduction techniques using pyspark
+LO0070,ds5110,execute model selection and tuning in pyspark
+LO0071,ds5110,distinguish the use and benefits of accumulators and broadcast variables
+LO0072,ds5110,build machine learning tools for the supervised learning task
+LO0073,ds5110,use hyperparameter tuning in spark
+LO0074,ds5110,understand the concepts behind hdfs
+LO0075,ds5110,understand the concepts behind hive.
+LO0076,ds5110,have some familiarity with running pyspark in a databricks notebook
+LO0077,ds5110,"understand how ec2 and s3 are used for computing and storage, respectively"
+LO0078,ds5110,demonstrate the steps for configuring and launching an aws ec2 instance
+LO0079,ds5110,understand the capabilities of amazon glue and athena
+LO0080,ds5110,understand the concepts and use cases behind apache kafka
+LO0081,ds5110,create and configure an amazon s3 bucket
+LO0082,ds5110,apply the concepts behind streaming systems
+LO0083,ds5110,execute the spark streaming library
+LO0084,ds5110,compute analytics using spark streaming
+LO0085,ds5110,explain the properties of data lakes and data lakehouses
+LO0086,ds5110,"explain the shortcomings of data lakes, and how data lakehouses address these shortcomings"
+LO0087,ds5110,"work with apache delta lakes to implement their salient features (create, delete, update, conditional update, time travel)"
+LO0088,ds5110,implement graphx and graphframes in spark
+LO0089,ds6001,recognize how to get help with coding in a way that is accurate and efficient while demonstrating how to be a good citizen in online forums
+LO0090,ds6001,"csv, flat files, json, from apis, and using web scraping, and loading it into python"
+LO0091,ds6001,"understand the purpose, typology, and language of relational databases"
+LO0092,ds6001,"understand the purpose, typology, and language of nosql databases"
+LO0093,ds6001,"sqlite, postgresql, mysql, mongodb"
+LO0094,ds6001,understand how to query databases with sql
+LO0095,ds6001,understand how to query databases with the mongodb query language
+LO0096,ds6001,"employ methods for wrangling, joining, and aggregating data using pandas"
+LO0097,ds6001,"understand relationships in data using summary statistics, hypothesis tests, measurement models"
+LO0098,ds6001,"understand relationships in data using visualization with matplotlib, seaborn, plotly"
+LO0099,ds6002,identify situations that demand ethical responses involving data science
+LO0100,ds6002,develop the skills to respond creatively to critical ethics issues in data science
+LO0101,ds6003,"build knowledge about the education and training needed for a particular job, career path, and entry into the data science profession"
+LO0102,ds6003,"observe, receive information, and ask questions to acquire knowledge and awareness of data science professions"
+LO0103,ds6003,relate academics with the world of work by connection data science careers to program coursework
+LO0104,ds6011,collect and manage data to devise solutions to assigned research projects
+LO0105,ds6011,"select, apply, and evaluate models, tools, and methods to address research projects"
+LO0106,ds6011,interpret and assess results and evaluate the limitations of research findings
+LO0107,ds6011,"resolve group work allocation, leadership, and cooperation issues"
+LO0108,ds6012,identify situations that demand ethical responses involving data science
+LO0109,ds6012,develop the skills to respond creatively to critical ethics issues in data science
+LO0110,ds6030,build classification and regression models for a given data set using r statistical software
+LO0111,ds6030,explain the statistical theory used in data mining that affects how each type of model makes predictions
+LO0112,ds6030,"for a given data set and model, determine the optimal algorithmic parameters to customize the results of the model based on practical goals"
+LO0113,ds6030,"evaluate the performance of a model in terms of various factors such as accuracy, computational cost, interpretability, and practical requirements"
+LO0114,ds6030,determine the most appropriate algorithm for a given data set based on the needs of the user
+LO0115,ds6030,use visualization techniques to help users understand and interpret the data mining results
+LO0116,ds6030,implement knn regression and classification models in r
+LO0117,ds6030,build linear and nonlinear regression models in r
+LO0118,ds6030,evaluate bias-variance tradeoff of linear regression method
+LO0119,ds6030,"implement lr, lda, and qda classification in r"
+LO0120,ds6030,implement cross-validation
+LO0121,ds6030,understand the theory behind principal components
+LO0122,ds6030,use principal components transformation to visualize data
+LO0123,ds6030,"use regularization (shrinkage, pca, lasso) to improve regression accuracy"
+LO0124,ds6030,build a cart in r and use for both classification and regression
+LO0125,ds6030,build a random forest (rf) for classification and for regression in r
+LO0126,ds6030,use an svm for classification and regression in r
+LO0127,ds6030,use k-means clustering to explore new data in r
+LO0128,ds6030,use hierarchical clustering to create and evaluate clusters in r
