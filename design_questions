@@ -1,0 +1,78 @@
+1) What tables should you build? I will build a table for: instructors, terms, courses, course_offerings, learning_outcomes
+
+2) (2 PTS) For each table, what field(s) will you use for primary key? For each table, the PK will be aunique index. 
+  terms - term_id (term name)
+  courses - course_id (mnemonic)
+  course_offerings - co_id (created)
+  instructors - instructor_id (created)
+  learning_outcomes - lo_id (created)
+
+3) For each table, what foreign keys will you use?
+  terms - n/a
+  courses - n/a
+  course_offerings - course_id, instructor_id, term_id
+  instructors - n/a
+  learning_outcomes - course_id
+
+4) Learning outcomes, courses, and instructors need a flag to indicate if they are currently active or not. How will your database support this feature? 
+The learning outcomes, courses, and instructors tables have an 'active' boolean field to indicate if they are active or not. To make changes as status changes, we can UPDATE the relevant fields. 
+
+5) Is there anything to normalize in the database, and if so, how will you normalize it? Recall the desire to eliminate redundancy.
+  The table structure in the mermaid diagram reflects the necessary normalization to bring the database to 3NF. Each table has a primary key and and there are no transitive dependencies.
+
+6) (1 PT) Are there indexes that you should build? Explain your reasoning.
+Each table should have a unique primary key, and the primary keys should be automatically indexed. I could potentially index course and instructor name since those are likely to be searched.
+
+7) (2 PTS) Are there constraints to enforce? Explain your answer and strategy.
+For example, these actions should not be allowed:
+- Entering learning objectives for a course not offered by the School of Data Science
+- Assigning an invalid instructor to a course
+
+- i should add check constraints on the 'active' columns to ensure they only contain boolean values
+-  a unique constraint on course_name in courses and instructor_name in instructors.
+-  foreign key constraints on COURSE_OFFERINGS and LEARNING_OUTCOMES to ensure valid course_id, instructor_id, and term_id
+ - not null constraints on all fields
+
+8) (5 PTS) Draw and submit a Relational Model for your project. For an example, see Beginning Database Design Solutions page 115 Figure 5-28.
+
+  erDiagram
+    COURSES ||--o{ COURSE_OFFERINGS : "has"
+    COURSES ||--o{ LEARNING_OUTCOMES : "has"
+    INSTRUCTORS ||--o{ COURSE_OFFERINGS : "teaches"
+    TERMS ||--o{ COURSE_OFFERINGS : "includes"
+    
+    COURSES {
+        string course_id PK
+        string course_name
+        string course_description
+        boolean course_active
+    }
+    
+    INSTRUCTORS {
+        string instructor_id PK
+        string instructor_name
+        boolean instructor_active
+    }
+    
+    TERMS {
+        string term_id PK
+        string term_name
+    }
+    
+    LEARNING_OUTCOMES {
+        string outcome_id PK
+        string course_id FK
+        string learning_outcome_description
+        boolean lo_active
+    }
+    
+    COURSE_OFFERINGS {
+        string offering_id PK
+        string course_id FK
+        string instructor_id FK
+        string term_id FK
+    }
+
+9) (2 PTS) Suppose you were asked if your database could also support the UVA SDS Residential MSDS Program. Explain any issues that might arise, changes to the database structure (schema), and new data that might be needed. Note you won’t actually need to support this use case for the project.
+
+To support the residential program, we would need a residential/online flag for instructors, courses, and course_offerings to indicate if residential or online. Learning outcomes might also need to be adjusted and expanded with additional outcomes and a residential/online flag if there are different program objectives for online vs. residential students. New data might also include building location and schedule (time of delivery).
