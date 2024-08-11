@@ -1,0 +1,146 @@
+#1,COURSE_MNEMONIC,COURSE_NAME,
+,ds_biz_anaytics,business analytics for data scientists,
+,ds_tech_bootcamp,technical bootcamp,
+,ds5001,exploratory text analytics,
+,ds5012,foundations of computer science,
+,ds5100,programming for data science,
+,ds5110,big data systems,
+,ds6001,practice and application of data science,
+,ds6002,big data ethics,
+,ds6011,data science capstone project work i,
+,ds6013,data science capstone project work ii,
+,ds6030,statistical learning,
+,ds6040,bayesian machine learning,
+,ds6050,deep learning,
+,sarc5400,data visualization,
+,stat6021,linear models for data science,
+,,,
+#2,COURSE_MNEMONIC,COURSE_NAME,
+,ds6003,practice and application of data science part 2,
+,ds6012,big data ethics part 2,
+,,,
+,,,
+#3,INSTRUCTOR_NAME,,
+,jeremy bolton,,
+,luis felipe rosado murillo,,
+,,,
+#4,COURSE_ID,COURSE_NAME,OUTCOME_COUNT
+,ds5001,exploratory text analytics,8
+,ds5012,foundations of computer science,0
+,ds5100,programming for data science,34
+,ds5110,big data systems,37
+,ds6001,practice and application of data science,10
+,ds6002,big data ethics,2
+,ds6003,practice and application of data science part 2,3
+,ds6011,data science capstone project work i,4
+,ds6012,big data ethics part 2,2
+,ds6013,data science capstone project work ii,0
+,ds6030,statistical learning,19
+,ds6040,bayesian machine learning,0
+,ds6050,deep learning,0
+,ds_biz_anaytics,business analytics for data scientists,0
+,ds_tech_bootcamp,technical bootcamp,0
+,sarc5400,data visualization,0
+,stat6021,linear models for data science,0
+,,,
+#5,COURSE_MNEMONIC,COURSE_NAME,
+,ds5012,foundations of computer science,
+,ds6013,data science capstone project work ii,
+,ds6040,bayesian machine learning,
+,ds6050,deep learning,
+,ds_biz_anaytics,business analytics for data scientists,
+,ds_tech_bootcamp,technical bootcamp,
+,sarc5400,data visualization,
+,stat6021,linear models for data science,
+,,,
+#6,COURSE_MNEMONIC,COURSE_NAME,OUTCOME_DESCRIPTION
+,ds5110,big data systems,apply spark sql to data analysis tasks
+,ds6001,practice and application of data science,"understand the purpose, typology, and language of nosql databases"
+,ds6001,practice and application of data science,"sqlite, postgresql, mysql, mongodb"
+,ds6001,practice and application of data science,understand how to query databases with sql
+,,,
+#7,INSTRUCTOR_NAME,,
+,nada basit,,
+,,,
+#8,INSTRUCTOR_NAME,,
+,abbas kazemipour,,
+,adam tashman,,
+,bill basener,,
+,cait dreisbach,,
+,eric tassone,,
+,jeffrey woo,,
+,jeremy bolton,,
+,judy fox,,
+,lei xie,,
+,marc ruggiano,,
+,pete alonzi,,
+,peter gedeck,,
+,raf alvarado,,
+,renee cummings,,
+,sree mallikarjun,,
+,stephen baek,,
+,teague henry,,
+,,,
+#9,TERM_ID,INSTRUCTOR_NAME,COURSE_COUNT
+,fall2021,abbas kazemipour,1
+,fall2021,adam tashman,1
+,fall2021,bill basener,2
+,fall2021,cait dreisbach,1
+,fall2021,eric tassone,2
+,fall2021,jeffrey woo,1
+,fall2021,jeremy bolton,2
+,fall2021,judy fox,1
+,fall2021,lei xie,1
+,fall2021,marc ruggiano,1
+,fall2021,pete alonzi,1
+,fall2021,peter gedeck,1
+,fall2021,raf alvarado,1
+,fall2021,renee cummings,1
+,fall2021,sree mallikarjun,1
+,fall2021,stephen baek,1
+,fall2021,teague henry,1
+,spring2021,adam tashman,1
+,spring2021,bill basener,1
+,spring2021,eric field,1
+,spring2021,jason williamson,1
+,spring2021,jeffrey woo,1
+,spring2021,jon kropko,2
+,spring2021,judy fox,1
+,spring2021,luis felipe rosado murillo,2
+,spring2021,mike porter,1
+,spring2021,panagiotis apostolellis,1
+,spring2021,pete alonzi,1
+,spring2021,raf alvarado,1
+,spring2021,rich nguyen,1
+,spring2021,sree mallikarjun,1
+,summer2021,adam tashman,1
+,summer2021,jason williamson,1
+,summer2021,jeffrey woo,1
+,summer2021,jeremy bolton,1
+,summer2021,jon kropko,1
+,summer2021,nada basit,1
+,summer2021,pete alonzi,1
+,summer2021,peter gedeck,1
+,summer2021,raf alvarado,2
+,summer2021,renee cummings,2
+,summer2021,rich nguyen,1
+,summer2021,sree mallikarjun,1
+,summer2021,teague henry,2
+,,,
+,,,
+#10a,COURSE_MNEMONIC,TERM_ID,
+,ds6011,fall2021,
+,ds6013,fall2021,
+,ds6011,summer2021,
+,,,
+#10b,TERM_ID,COURSE_MNEMONIC,INSTRUCTOR_NAME
+,fall2021,ds6011,abbas kazemipour
+,fall2021,ds6011,cait dreisbach
+,fall2021,ds6011,eric tassone
+,fall2021,ds6011,jeremy bolton
+,fall2021,ds6011,lei xie
+,fall2021,ds6011,peter gedeck
+,fall2021,ds6013,raf alvarado
+,fall2021,ds6013,teague henry
+,summer2021,ds6011,raf alvarado
+,summer2021,ds6011,teague henry
