@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     COURSES ||--o{ COURSE_OFFERINGS : "has"
     COURSES ||--o{ LEARNING_OUTCOMES : "has"
@@ -34,3 +35,4 @@ erDiagram
         string term_id FK
         string instructor_id FK
     }
+```
